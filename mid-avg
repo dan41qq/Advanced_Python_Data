@@ -1,0 +1,9 @@
+time = str(input())
+chisla = time.split()
+novie = chisla[1:-1]
+spisok = []
+for i in novie:
+    spisok.append(int(i))
+average = sum(spisok)/len(spisok)
+print(spisok)
+print(average)
