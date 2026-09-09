@@ -1,0 +1,10 @@
+database = {
+    "nikita_lead": "Nikita" ,
+    "dan41qq_helper": "Daniil" ,
+    "yarik_developer": "Yarik"
+    }
+nik = str(input())
+if nik in database:
+    print("Hi,", database[nik])
+else:
+        print("Error")
