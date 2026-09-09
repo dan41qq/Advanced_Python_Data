@@ -1,0 +1,9 @@
+orders = str(input())
+chisla = orders.split()
+spisokvip = 0
+for i, word in enumerate(chisla):
+    if word == "vip":
+        spisokvip = spisokvip+1
+        print(i+1, end =" ")
+print()
+print(spisokvip)
