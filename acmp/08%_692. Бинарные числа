@@ -1,0 +1,5 @@
+a = int(input())
+if a==1 or a==2 or a==8 or a==16 or a==32 or a==64 or a==128 or a==256 or a==512 or a==1024 or a==2048 or a==4096 or a==8192:
+    print('Yes')
+else:
+    print('No')
