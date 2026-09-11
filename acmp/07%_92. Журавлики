@@ -1,0 +1,4 @@
+a = int(input())
+b = int(a//6)
+c = int(b*4)
+print(b, c, b)
