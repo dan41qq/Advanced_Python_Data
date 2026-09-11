@@ -1,0 +1,12 @@
+c = 0
+d = 0
+for _ in range(4):
+    a, b = map(int, input().split())
+    c = c+a
+    d = d+b
+if c>d:
+    print('1')
+elif c<d:
+    print('2')
+else:
+    print('Draw')
