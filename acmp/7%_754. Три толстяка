@@ -1,0 +1,13 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a<94 or b<94 or c<94 or a>727 or b>727 or c>727:
+    print('Error')
+elif a>=c and a>=b:
+    print(a)
+elif b>=a and b>=c:
+    print(b)
+elif c>=a and c>=b:
+    print(c)
+elif a==b and a==c:
+    print(a)
