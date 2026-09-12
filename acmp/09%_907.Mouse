@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a<b and 2*c>a:
+    print('No')
+elif a>b and 2*c>b:
+    print('No')
+else:
+    print('Yes')
