@@ -1,0 +1,4 @@
+n = int(input())
+mass = [int(x) for x in input().split()]
+rev_mass = mass[::-1]
+print(*rev_mass)
