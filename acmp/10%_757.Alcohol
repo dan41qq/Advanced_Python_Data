@@ -1,0 +1,13 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(a//2)
+e = int(b//6)
+if d<=e and d<=c:
+    print(d)
+elif e<=c and e<=d:
+    print(e)
+elif c<=d and c<=e:
+    print(c)
+else:
+    print('0')
